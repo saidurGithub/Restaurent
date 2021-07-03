@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; }
+
+/*   ====================
+        BSAIC SET UP 
+========================= */
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #069C48; }
+
+h2 {
+  font-size: 40px;
+  font-weight: 600; }
+
+h5 {
+  color: #069C48; }
+
+.navbar {
+  background: #fff; }
+  .navbar a {
+    color: #919191; }
+  .navbar .navbar-brand {
+    font-size: 28px; }
+  .navbar #logo:hover {
+    color: #069c06 !important; }
+  .navbar ul li {
+    margin: 0 15px; }
+  .navbar ul li a {
+    font-size: 18px;
+    transition: 0.4s;
+    font-weight: 600; }
+  .navbar ul li a:hover {
+    color: #069C48; }
+
+/* ====================
+    START HERO SECTION
+======================*/
+#hero .btn {
+  background: #069C48;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 12px 18px;
+  transition: 0.5s; }
+
+#hero .btn:hover {
+  background: #028452; }
+
+#hero img {
+  max-width: 85%; }
+
+/* ====================
+    START ABOUT SECTION
+======================*/
+#about h4 {
+  color: #069C48;
+  margin-bottom: 25px; }
+
+#about img {
+  max-width: 70%; }
+
+#about .about-btn {
+  background: #069C48;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 18px; }
+
+/* ====================
+    START SERVICE SECTION
+======================*/
+#service .service-img {
+  width: 100px;
+  margin: auto;
+  margin-bottom: -50px; }
+
+#service .service-des {
+  margin-bottom: -35px; }
